@@ -1,0 +1,54 @@
+# Insert your preferred key mappings here.
+
+
+# map <space>h goBack 
+# map <space>l goForward
+# map <space>l goForward
+
+# schearching stuff, s is the google key
+map s Vomnibar.activate keyword=g
+map S Vomnibar.activateInNewTab keyword=g
+map <space>s Vomnibar.activateInNewTab keyword=g
+
+# schearching stuff, rearange the o key
+unmap o
+map oo Vomnibar.activate
+map oO Vomnibar.activateInNewTab
+map o<space>o Vomnibar.activateInNewTab
+
+map oy Vomnibar.activate keyword=y
+map oY Vomnibar.activateInNewTab keyword=y
+map o<space>y Vomnibar.activateInNewTab keyword=y
+
+map ol Vomnibar.activate keyword=gy
+map oL Vomnibar.activateInNewTab keyword=gy
+map o<space>l Vomnibar.activateInNewTab keyword=gy
+
+map on Vomnibar.activate keyword=gn
+map oN Vomnibar.activateInNewTab keyword=gn
+map o<space>n Vomnibar.activateInNewTab keyword=gn
+
+# remaping the easiest keys to the most used commands
+map H scrollLeft
+map L scrollRight
+map <space>h scrollLeft
+map <space>l scrollRight
+map h goBack
+map l goForward
+
+map J scrollDown
+map K scrollUp
+map <space>j scrollDown
+map <space>k scrollUp
+map j previousTab
+map k nextTab
+
+# More tab stuff, rearange the r key
+unmap r
+map rr reload
+map rk lastTab count=2
+map rj firstTab count=2
+
+
+map ` Marks.activateCreateMode
+map m Marks.activateGotoMode
