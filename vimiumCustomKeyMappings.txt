@@ -16,14 +16,17 @@ map oo Vomnibar.activate
 map oO Vomnibar.activateInNewTab
 map o<space>o Vomnibar.activateInNewTab
 
+# Youtube
 map oy Vomnibar.activate keyword=y
 map oY Vomnibar.activateInNewTab keyword=y
 map o<space>y Vomnibar.activateInNewTab keyword=y
 
+#  Google the last year
 map ol Vomnibar.activate keyword=gy
 map oL Vomnibar.activateInNewTab keyword=gy
 map o<space>l Vomnibar.activateInNewTab keyword=gy
 
+# Googling in Norway
 map on Vomnibar.activate keyword=gn
 map oN Vomnibar.activateInNewTab keyword=gn
 map o<space>n Vomnibar.activateInNewTab keyword=gn
@@ -50,5 +53,18 @@ map rk lastTab count=2
 map rj firstTab count=2
 
 
-map ` Marks.activateCreateMode
-map m Marks.activateGotoMode
+# map ` Marks.activateCreateMode
+# map m Marks.activateGotoMode
+
+# Add an additional mapping for Escape:
+# mapkey <c-a> <c-[>
+
+# Disable <c-[>:
+# mapkey <c-[> <anyOldJunk>
+
+# under 'm' is all my important pages
+unmap m
+map mm createTab http://mail.yahoo.no
+map mf createTab https://www.facebook.com/
+map mh createTab https://www.google.com/bookmarks/
+map mp createTab https://www.kompetansenorge.no/Kompetansepluss/
