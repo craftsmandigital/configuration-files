@@ -53,8 +53,8 @@ map rk lastTab count=2
 map rj firstTab count=2
 
 
-# map ` Marks.activateCreateMode
-# map m Marks.activateGotoMode
+map ` Marks.activateCreateMode
+map m Marks.activateGotoMode
 
 # Add an additional mapping for Escape:
 # mapkey <c-a> <c-[>
@@ -66,5 +66,5 @@ map rj firstTab count=2
 unmap m
 map mm createTab http://mail.yahoo.no
 map mf createTab https://www.facebook.com/
-map mh createTab https://www.google.com/bookmarks/
+map mh createTab https://www.google.com/bookmarks/lookup?pli=1&sort=title
 map mp createTab https://www.kompetansenorge.no/Kompetansepluss/
