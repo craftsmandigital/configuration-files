@@ -67,4 +67,4 @@ unmap m
 map mm createTab http://mail.yahoo.no
 map mf createTab https://www.facebook.com/
 map mh createTab https://www.google.com/bookmarks/lookup?pli=1&sort=title
-map mp createTab https://www.kompetansenorge.no/Kompetansepluss/
+map mk createTab https://github.com/hackingjack/configuration-files/blob/master/vimiumCustomKeyMappings.txt
