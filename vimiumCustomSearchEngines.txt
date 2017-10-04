@@ -21,4 +21,5 @@ gy https://www.google.com/search?hl=en&tbo=1&tbs=qdr:y&q=%s Google the last year
 gte: http://translate.google.com/#auto|en|%s Google transelate to English
 gtn: http://translate.google.com/#auto|no|%s Google transelate to Norwewgian
 
-gn: https://www.google.no/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=%s&tbs=lr:lang_1no&lr=lang_no Googling in Norway
+# gn: https://www.google.no/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=%s&tbs=lr:lang_1no&lr=lang_no Googling in Norway
+gn: https://www.google.no/search?cr=countryNO&biw=1094&bih=484&tbs=ctr%3AcountryNO&q=%s&oq=%s Googling in Norway
