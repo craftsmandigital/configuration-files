@@ -17,9 +17,7 @@ h: https://github.com/search?utf8=%E2%9C%93&q=%s GitHub
 home: https://www.google.com/maps/dir/Olaf+Bulls+vei+78,+0765+Oslo/%s Hjemefra til destinasjon
 yr: http://www.yr.no/soek/soek.aspx?sted=%s&region1=&sok=Search Yr verden
 yrn: http://www.yr.no/soek/soek.aspx?land=NO&sted=%s&region1=&sok=Search Yr Norge
-gy https://www.google.com/search?hl=en&tbo=1&tbs=qdr:y&q=%s Google the last year
+gy https://www.google.no/search?q=%s&source=lnt&tbs=qdr:y&sa Google the last year
 gte: http://translate.google.com/#auto|en|%s Google transelate to English
 gtn: http://translate.google.com/#auto|no|%s Google transelate to Norwewgian
-
-gt: https://www.google.no/search?q=%s&source=lnt&tbs=qdr:y&sa Googling Last year
 gn: https://www.google.no/search?cr=countryNO&biw=1094&bih=484&tbs=ctr%3AcountryNO&q=%s&oq=%s Googling in Norway
