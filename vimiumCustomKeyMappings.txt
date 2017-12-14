@@ -65,12 +65,12 @@ map m Marks.activateGotoMode
 # under 'm' is all my important pages
 unmap m
 map mm createTab http://mail.yahoo.no
-map mf createTab https://www.facebook.com/
+# map mf createTab https://www.facebook.com/
 map mh createTab https://www.google.com/bookmarks/lookup?pli=1&sort=title
 map mk createTab https://github.com/hackingjack/configuration-files/blob/master/vimiumCustomKeyMappings.txt
 
 map md createTab https://docs.google.com/document/u/0/
-map md createTab https://photos.google.com/u/1/?hl=no
+map mf createTab https://photos.google.com/u/1/?hl=no
 
 map ma createTab https://seniornett.regweb.no/
 map ms createTab https://www.seniornett.no/opplaering/kurs/
