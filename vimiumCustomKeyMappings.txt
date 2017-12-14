@@ -68,3 +68,7 @@ map mm createTab http://mail.yahoo.no
 map mf createTab https://www.facebook.com/
 map mh createTab https://www.google.com/bookmarks/lookup?pli=1&sort=title
 map mk createTab https://github.com/hackingjack/configuration-files/blob/master/vimiumCustomKeyMappings.txt
+
+
+map ma createTab https://seniornett.regweb.no/
+map ms createTab https://www.seniornett.no/opplaering/kurs/
