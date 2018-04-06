@@ -1,16 +1,6 @@
 # Insert your preferred key mappings here.
 
-
-# map <space>h goBack 
-# map <space>l goForward
-# map <space>l goForward
-
-# schearching stuff, s is the google key
-map s Vomnibar.activate keyword=g
-map S Vomnibar.activateInNewTab keyword=g
-map <space>s Vomnibar.activateInNewTab keyword=g
-
-# schearching stuff, rearange the o key
+# schearching stuff, rearange the o key 
 unmap o
 map oo Vomnibar.activate
 map oO Vomnibar.activateInNewTab
@@ -43,6 +33,15 @@ map o<space>t Vomnibar.activateInNewTab keyword=gtn
 
 #Google drive
 map od Vomnibar.activate keyword=gd
+#-----------------------------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------------------------
+
+
+# schearching stuff, s is the google key
+map s Vomnibar.activate keyword=g
+map S Vomnibar.activateInNewTab keyword=g
+map <space>s Vomnibar.activateInNewTab keyword=g
+
 
 # remaping the easiest keys to the most used commands
 map H scrollLeft
@@ -66,14 +65,19 @@ map rk lastTab count=2
 map rj firstTab count=2
 
 
-map ` Marks.activateCreateMode
-map m Marks.activateGotoMode
+
 
 # Add an additional mapping for Escape:
 # mapkey <c-a> <c-[>
 
 # Disable <c-[>:
 # mapkey <c-[> <anyOldJunk>
+
+map ` Marks.activateCreateMode
+map m Marks.activateGotoMode
+
+#-----------------------------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------------------------
 
 # under 'm' is all my important pages
 unmap m
