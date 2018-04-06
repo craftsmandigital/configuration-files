@@ -21,3 +21,6 @@ gy https://www.google.no/search?q=%s&source=lnt&tbs=qdr:y&sa Google the last yea
 gte: http://translate.google.com/#auto|en|%s Google transelate to English
 gtn: http://translate.google.com/#auto|no|%s Google transelate to Norwewgian
 gn: https://www.google.no/search?cr=countryNO&biw=1094&bih=484&tbs=ctr%3AcountryNO&q=%s&oq=%s Googling in Norway
+
+#Google drive
+gd: https://drive.google.com/drive/u/0/search?q=%s Search My Drive
