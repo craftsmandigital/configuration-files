@@ -36,6 +36,11 @@ map on Vomnibar.activate keyword=gn
 map oN Vomnibar.activateInNewTab keyword=gn
 map o<space>n Vomnibar.activateInNewTab keyword=gn
 
+# Translate any language  to Norwegian
+map ot Vomnibar.activate keyword=gtn
+map oT Vomnibar.activateInNewTab keyword=gtn
+map o<space>t Vomnibar.activateInNewTab keyword=gtn
+
 #Google drive
 map od Vomnibar.activate keyword=gd
 
