@@ -1,0 +1,26 @@
+{
+  "settingsVersion": "1.63.3",
+  "exclusionRules": [
+    {
+      "pattern": "https?://chartgame.com/game/*",
+      "passKeys": ""
+    }
+  ],
+  "filterLinkHints": false,
+  "waitForEnterForFilteredHints": true,
+  "hideHud": false,
+  "keyMappings": "# Insert your preferred key mappings here.\n\n\n# map <space>h goBack \n# map <space>l goForward\n# map <space>l goForward\n\n# schearching stuff, s is the google key\nmap s Vomnibar.activate keyword=g\nmap S Vomnibar.activateInNewTab keyword=g\nmap <space>s Vomnibar.activateInNewTab keyword=g\n\n# schearching stuff, rearange the o key\nunmap o\nmap oo Vomnibar.activate\nmap oO Vomnibar.activateInNewTab\nmap o<space>o Vomnibar.activateInNewTab\n\n# Youtube\nmap oy Vomnibar.activate keyword=y\nmap oY Vomnibar.activateInNewTab keyword=y\nmap o<space>y Vomnibar.activateInNewTab keyword=y\n\n#  Google the last year\nmap ol Vomnibar.activate keyword=gy\nmap oL Vomnibar.activateInNewTab keyword=gy\nmap o<space>l Vomnibar.activateInNewTab keyword=gy\n\n#  Google the last year\nmap ow Vomnibar.activate keyword=w\nmap oW Vomnibar.activateInNewTab keyword=w\nmap o<space>w Vomnibar.activateInNewTab keyword=w\n\n# Googling in Norway\nmap on Vomnibar.activate keyword=gn\nmap oN Vomnibar.activateInNewTab keyword=gn\nmap o<space>n Vomnibar.activateInNewTab keyword=gn\n\n# Translate any language  to Norwegian\nmap ot Vomnibar.activate keyword=gtn\nmap oT Vomnibar.activateInNewTab keyword=gtn\nmap o<space>t Vomnibar.activateInNewTab keyword=gtn\n\n#Google drive\nmap od Vomnibar.activate keyword=gd\n\n# remaping the easiest keys to the most used commands\nmap H scrollLeft\nmap L scrollRight\nmap <space>h scrollLeft\nmap <space>l scrollRight\nmap h goBack\nmap l goForward\n\nmap J scrollDown\nmap K scrollUp\nmap <space>j scrollDown\nmap <space>k scrollUp\nmap j previousTab\nmap k nextTab\n\n# More tab stuff, rearange the r key\nunmap r\nmap rr reload\nmap rk lastTab count=2\nmap rj firstTab count=2\n\n\nmap ` Marks.activateCreateMode\nmap m Marks.activateGotoMode\n\n# Add an additional mapping for Escape:\n# mapkey <c-a> <c-[>\n\n# Disable <c-[>:\n# mapkey <c-[> <anyOldJunk>\n\n# under 'm' is all my important pages\nunmap m\nmap mm createTab http://mail.yahoo.no\n#map mf createTab https://www.facebook.com/\n\nmap mj createTab https://drive.google.com/drive/u/1/folders/1BMYTdWxWf9GzfE5_lxrbSQAt_iH0SJl6\nmap mn createTab https://tjenester.nav.no/aktivitetsplan/aktivitet/vis/1524929\n\nmap mt createTab https://www.tradingview.com/chart/zI4a1rUh/\nmap mf createTab https://finviz.com/",
+  "linkHintCharacters": "asdfghjkl;",
+  "linkHintNumbers": "0123456789",
+  "newTabUrl": "about:newtab",
+  "nextPatterns": "next,more,newer,>,›,→,»,≫,>>",
+  "previousPatterns": "prev,previous,back,older,<,‹,←,«,≪,<<",
+  "regexFindMode": false,
+  "ignoreKeyboardLayout": false,
+  "scrollStepSize": 60,
+  "smoothScroll": true,
+  "grabBackFocus": false,
+  "searchEngines": "w: http://www.wikipedia.org/w/index.php?title=Special:Search&search=%s Wikipedia\n\n# More examples.\n#\n# (Vimium supports search completion Wikipedia, as\n# above, and for these.)\n#\ng: http://www.google.com/search?q=%s Google\n# l: http://www.google.com/search?q=%s&btnI I'm feeling lucky...\ny: http://www.youtube.com/results?search_query=%s Youtube\ngm: https://www.google.com/maps?q=%s Google maps\n# b: https://www.bing.com/search?q=%s Bing\nd: https://duckduckgo.com/?q=%s DuckDuckGo\nh: https://github.com/search?utf8=%E2%9C%93&q=%s GitHub\n# az: http://www.amazon.com/s/?field-keywords=%s Amazon\n# qw: https://www.qwant.com/?q=%s Qwant\nhome: https://www.google.com/maps/dir/Olaf+Bulls+vei+78,+0765+Oslo/%s Hjemefra til destinasjon\nyr: http://www.yr.no/soek/soek.aspx?sted=%s&region1=&sok=Search Yr verden\nyrn: http://www.yr.no/soek/soek.aspx?land=NO&sted=%s&region1=&sok=Search Yr Norge\ngy https://www.google.no/search?q=%s&source=lnt&tbs=qdr:y&sa Google the last year\ngte: http://translate.google.com/#auto|en|%s Google transelate to English\ngtn: http://translate.google.com/#auto|no|%s Google transelate to Norwewgian\ngn: https://www.google.no/search?cr=countryNO&biw=1094&bih=484&tbs=ctr%3AcountryNO&q=%s&oq=%s Googling in Norway\n\n#Google drive\ngd: https://drive.google.com/drive/u/0/search?q=%s Search My Drive",
+  "searchUrl": "https://www.google.com/search?q=",
+  "userDefinedLinkHintCss": "div > .vimiumHintMarker {\n/* linkhint boxes */\nbackground: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFF785),\n  color-stop(100%,#FFC542));\nborder: 1px solid #E3BE23;\n}\n\ndiv > .vimiumHintMarker span {\n/* linkhint text */\ncolor: black;\nfont-weight: bold;\nfont-size: 12px;\n}\n\ndiv > .vimiumHintMarker > .matchingCharacter {\n}"
+}
