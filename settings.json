@@ -15,6 +15,16 @@
   ],
   "vim.normalModeKeyBindingsNonRecursive": [
     {
+      "before": ["f", "f"],
+      "after": ["f"]
+    },
+    {
+      "before": ["f", "s"],
+      "commands": [
+           "workbench.action.files.save"
+       ]
+    },
+    {
       "before": ["<leader>", "d"],
       "after": ["d", "d"]
     },
