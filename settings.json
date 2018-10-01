@@ -1,4 +1,5 @@
 {
+  "git.autofetch": false,
   "git.path": "C:\\Program Files\\Git\\bin\\git.exe",
   "vim.easymotion": true,
   "vim.sneak": true,
