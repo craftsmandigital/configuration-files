@@ -19,6 +19,30 @@
       "after": ["f"]
     },
     {
+      "before": ["f", "n"],
+      "commands": [
+           "workbench.action.files.newUntitledFile"
+       ]
+    },
+    {
+      "before": ["f", "e"],
+      "commands": [
+           "workbench.view.explorer"
+       ]
+    },
+    {
+      "before": ["f", "g"],
+      "commands": [
+           "workbench.view.scm"
+       ]
+    },
+    {
+      "before": ["f", "c"],
+      "commands": [
+           "workbench.action.closeActiveEditor"
+       ]
+    },
+    {
       "before": ["f", "s"],
       "commands": [
            "workbench.action.files.save"
