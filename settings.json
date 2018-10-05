@@ -1,3 +1,4 @@
+
 {
   "git.autofetch": false,
   "git.path": "C:\\Program Files\\Git\\bin\\git.exe",
@@ -17,6 +18,12 @@
     {
       "before": ["f", "f"],
       "after": ["f"]
+    },
+    {
+      "before": ["f", "t"],
+      "commands": [
+           "workbench.action.terminal.toggleTerminal"
+       ]
     },
     {
       "before": ["f", "n"],
